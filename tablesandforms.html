@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Tables</title>
+    </head>
+
+    <body>
+        <h1>Table Example: Spanning Rows and Colomns</h1>
+        <table border = "1">
+            <caption>A more complex sample table</caption>
+            <thead>
+            <!--Rowspans and colomns merge the specified number of cells vertically or horizontally-->
+                <tr>
+                    <!--merge two rows-->
+                    <th rowspan = "2">
+                        <img src = "images/camel.png"
+                        width="205"
+                        height="167"
+                        alt="picture of a one-hump camel" />
+                    </th>
+                    <!--merge four colomns-->
+                    <th colspan="4">
+                        <strong>
+                            Camelid comparison
+                        </strong><br>
+                        Approximate as of 6/2011
+                    </th>
+                    </tr>
+                        <tr>
+                            <th># of humps </th>
+                             <th>indigenous region </th>
+                             <th> Spits?</th>
+                             <th> Produces wool?</th>
+                        </tr>
+                     </thead>
+                <tbody>
+                    <tr>
+                        <th>Camels (bactrian)</th>
+                        <td>2</td>
+                        <td>Africa/Asia</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                        </tr>
+
+                        <tr>
+                        <th>Llamas</th>
+                        <td>1</td>
+                        <td>Andes Mountains</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                        </tr>
+                          
+                    </tbody>
+            </table>
+        </body>
+
+</html>
